@@ -55,7 +55,7 @@
             finalAnswer.innerText = "Searching & Analyzing...";
 
             try {
-                const res = await fetch('https://your-render-url.onrender.com/agent/execute', {
+                const res = await fetch('https://ai-index-browser.onrender.com/agent/execute', {
                     method: 'POST',
                     headers: {'Content-Type': 'application/json'},
                     body: JSON.stringify({ task })
