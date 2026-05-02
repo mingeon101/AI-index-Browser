@@ -1,5 +1,5 @@
 # 5차 프로토타입 수정용 Dockerfile
-FROM mcr.microsoft.com/playwright:v1.58.0-jammy
+FROM mcr.microsoft.com/playwright:v1.59.1-jammy
 
 # 1. 작업 디렉토리를 /app으로 고정
 WORKDIR /app
